@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="armaforces_spotlight">
+    <!-- CBA Keybinds  -->
+    <Key ID="STR_armaforces_spotlight_join">
+        <Original>Join</Original>
+        <Polish>Dołącz</Polish>
+    </Key>
+</Project>

@@ -1,0 +1,59 @@
+
+comment "Exported from Arsenal by LT Slatery";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_cu_ocp";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_microDAGR";
+this addItemToUniform "rhsusf_mag_15Rnd_9x19_FMJ";
+for "_i" from 1 to 4 do {this addItemToUniform "Chemlight_red";};
+this addItemToUniform "1Rnd_SmokeBlue_Grenade_shell";
+this addItemToUniform "1Rnd_SmokeRed_Grenade_shell";
+this addItemToUniform "SmokeShell";
+this addItemToUniform "SmokeShellGreen";
+this addVest "rhsusf_spcs_ocp_squadleader";
+for "_i" from 1 to 4 do {this addItemToVest "ACE_fieldDressing";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_elasticBandage";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_quikclot";};
+this addItemToVest "ACE_epinephrine";
+for "_i" from 1 to 4 do {this addItemToVest "ACE_morphine";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_packingBandage";};
+this addItemToVest "ACE_tourniquet";
+for "_i" from 1 to 8 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+this addItemToVest "1Rnd_SmokeBlue_Grenade_shell";
+this addItemToVest "1Rnd_SmokeRed_Grenade_shell";
+this addItemToVest "rhs_mag_m67";
+for "_i" from 1 to 6 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+this addHeadgear "rhsusf_ach_helmet_headset_ess_ocp";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_m320";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+this addPrimaryWeaponItem "rhsusf_acc_ACOG_RMR";
+this addWeapon "rhsusf_weap_m9";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "TFAR_anprc152";
+this linkItem "ItemGPS";
+
+comment "Set identity";
+[this,"WhiteHead_02","male05eng"] call BIS_fnc_setIdentity;

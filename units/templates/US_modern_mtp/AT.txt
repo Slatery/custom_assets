@@ -1,0 +1,54 @@
+
+comment "Exported from Arsenal by LT Slatery";
+
+comment "[!] UNIT MUST BE LOCAL [!]";
+if (!local this) exitWith {};
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "rhs_uniform_cu_ocp";
+this addItemToUniform "ACE_EarPlugs";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_CableTie";};
+this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_DAGR";
+for "_i" from 1 to 2 do {this addItemToUniform "rhsusf_mag_15Rnd_9x19_FMJ";};
+this addVest "rhsusf_spcs_ocp_rifleman";
+for "_i" from 1 to 4 do {this addItemToVest "ACE_fieldDressing";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_elasticBandage";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_quikclot";};
+this addItemToVest "ACE_epinephrine";
+for "_i" from 1 to 3 do {this addItemToVest "ACE_morphine";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_packingBandage";};
+this addItemToVest "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_m67";};
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 8 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag";};
+this addHeadgear "rhsusf_ach_helmet_ocp";
+this addGoggles "G_Tactical_Clear";
+
+comment "Add weapons";
+this addWeapon "rhs_weap_m4a1_carryhandle";
+this addPrimaryWeaponItem "rhsusf_acc_anpeq15";
+this addPrimaryWeaponItem "rhsusf_acc_ACOG_RMR";
+this addPrimaryWeaponItem "rhsusf_acc_grip3";
+this addWeapon "rhs_weap_M136";
+this addWeapon "rhsusf_weap_m9";
+this addWeapon "rhsusf_bino_m24";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "TFAR_microdagr";
+this linkItem "TFAR_rf7800str";
+
+comment "Set identity";
+[this,"WhiteHead_21","male03eng"] call BIS_fnc_setIdentity;

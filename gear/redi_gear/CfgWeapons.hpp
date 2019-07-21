@@ -31,7 +31,7 @@ class CfgWeapons{
 	};
 
 
-	class ADFU_H_OpsCore_09_AMC: ADFU_H_OpsCore_09
+	class ADFU_H_OpsCore_09_AMC: ADFU_H_OpsCore_09_MC
 	{
 		author="Adacas + ADFU";
 		dlc="ADFU";
@@ -60,7 +60,7 @@ class CfgWeapons{
 		};
 	};
 
-	class ADFU_H_Airframe_Cover_07_AMC: ADFU_H_Airframe_Cover_07
+	class ADFU_H_Airframe_Cover_07_AMC: ADFU_H_Airframe_Cover_07_MC
 	{
 		author="Adacas + ADFU";
 		dlc="ADFU";
@@ -75,6 +75,58 @@ class CfgWeapons{
 			"",
 			"",
 			"ADFU_Units_AMC\data\h_airframe_cover_AMC_co.paa",
+			"",
+			"ADFU_Units\data\h_gear_01_khk_co.paa",
+			"ADFU_Units\data\h_gear_01_khk_co.paa",
+			"",
+			"ADFU_Units_MC\data\h_airframe_brn_co.paa",
+			"ADFU_Units_MC\data\h_fast_khk_co.paa"
+		};
+	};
+	class ADFU_H_OpsCore_09_AMCT: ADFU_H_OpsCore_09_MC
+	{
+		author="Adacas + ADFU";
+		dlc="ADFU";
+		scope=2;
+		scopeArsenal=2;
+		allowedslots[]={901};
+		displayName="OpsCore (AMCT) [Night Ops/Headset]";
+		picture="\ADFU_Units_MC\ui\icons\oc\oc_04_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\ADFU_Units_AMCT\data\h_opscore_AMCT_co.paa",
+			"",
+			"",
+			"",
+			"\ADFU_Units\data\h_gear_01_cb_co.paa",
+			"",
+			"",
+			"",
+			"\ADFU_Units\data\h_gear_01_cb_co.paa",
+			"",
+			"",
+			"\ADFU_Units\data\h_gear_01_cb_co.paa",
+			"",
+			"",
+			""
+		};
+	};
+
+	class ADFU_H_Airframe_Cover_07_AMCT: ADFU_H_Airframe_Cover_07_MC
+	{
+		author="Adacas + ADFU";
+		dlc="ADFU";
+		scope=2;
+		scopeArsenal=2;
+		displayName="Airframe (AMCT) [Night Ops/Headset]";
+		allowedslots[]={901};
+		picture="\ADFU_Units_MC\ui\icons\af\af_04_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\ADFU_Units\data\h_gear_01_khk_co.paa",
+			"",
+			"",
+			"ADFU_Units_AMCT\data\h_airframe_cover_AMCT_co.paa",
 			"",
 			"ADFU_Units\data\h_gear_01_khk_co.paa",
 			"ADFU_Units\data\h_gear_01_khk_co.paa",

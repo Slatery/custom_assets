@@ -12,6 +12,27 @@ class B_onesixty_Platoon_Lead : REDI_base_soldier{
 	respawnWeapons[] 			= {"SMA_Steyr_acc", "hgun_Rook40_F","Binocular",Throw, Put};
 	magazines[] 				= { OFFICER_GR,AR_SIX_MAG,NINEMM };
 	respawnMagazines[] 			= { OFFICER_GR,AR_SIX_MAG,NINEMM };
+	
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Platoon_Sergeant : REDI_base_soldier{
@@ -26,8 +47,26 @@ class B_onesixty_Platoon_Sergeant : REDI_base_soldier{
 	respawnWeapons[] 			= {"SMA_Steyr_acc", "hgun_Rook40_F","Binocular",Throw, Put};
 	magazines[] 				= { OFFICER_GR,AR_SIX_MAG,NINEMM };
 	respawnMagazines[] 			= { OFFICER_GR,AR_SIX_MAG,NINEMM };	
-
-	
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};	
 };
 
 class B_onesixty_Squad_Lead : REDI_base_soldier{
@@ -43,6 +82,26 @@ class B_onesixty_Squad_Lead : REDI_base_soldier{
 	respawnWeapons[] 			= {"SMA_Steyr_gl_acc", "hgun_Rook40_F","Laserdesignator",Throw, Put};
 	magazines[] 				= { OFFICER_GR,AR_SIX_MAG,UGL_STAND,NINEMM,"Laserbatteries" };
 	respawnMagazines[] 			= { OFFICER_GR,AR_SIX_MAG,UGL_STAND,NINEMM,"Laserbatteries" };
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Team_Lead : REDI_base_soldier{
@@ -58,6 +117,26 @@ class B_onesixty_Team_Lead : REDI_base_soldier{
 	respawnWeapons[] 			= {"SMA_Steyr_gl_acc", "hgun_Rook40_F","Laserdesignator",Throw, Put};
 	magazines[] 				= { OFFICER_GR, AR_SIX_MAG,UGL_STAND,NINEMM,"Laserbatteries" };
 	respawnMagazines[] 			= { OFFICER_GR, AR_SIX_MAG,UGL_STAND,NINEMM,"Laserbatteries" };
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Machine_Gunner : REDI_base_soldier{
@@ -73,6 +152,26 @@ class B_onesixty_Machine_Gunner : REDI_base_soldier{
 	respawnWeapons[] 			= { "SMA_minimi_acc", "hgun_Rook40_F",Throw, Put};
 	magazines[] 				= { GUNNER_MAG, STANDARD_GR,NINEMM };
 	respawnMagazines[] 			= { GUNNER_MAG, STANDARD_GR,NINEMM };
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Missile_Specialist : REDI_base_soldier{
@@ -88,6 +187,26 @@ class B_onesixty_Missile_Specialist : REDI_base_soldier{
 	respawnWeapons[] 			= {"SMA_Steyr_acc", "hgun_Rook40_F",Throw, Put};
 	magazines[] 				= { AR_EIGHT_MAG,STANDARD_GR,NINEMM };
 	respawnMagazines[] 			= { AR_EIGHT_MAG,STANDARD_GR,NINEMM };
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Rifleman : REDI_base_soldier{
@@ -103,6 +222,26 @@ class B_onesixty_Rifleman : REDI_base_soldier{
 	respawnWeapons[] 			= {"SMA_Steyr_acc", "hgun_Rook40_F",Throw, Put};
 	magazines[] 				= { AR_EIGHT_MAG,STANDARD_GR,NINEMM };
 	respawnMagazines[] 			= { AR_EIGHT_MAG,STANDARD_GR,NINEMM };
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 
@@ -121,7 +260,26 @@ class B_onesixty_marksman : REDI_base_soldier{
 	respawnWeapons[] 			= { "SMA_417_acc", "hgun_Rook40_F",Throw, Put};
 	magazines[] 				= { MARKSMAN_MAG,STANDARD_GR,NINEMM };
 	respawnMagazines[] 			= { MARKSMAN_MAG,STANDARD_GR,NINEMM };
-	
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};	
 };
 
 class B_onesixty_Combat_Medic : B_base_medic{
@@ -138,6 +296,26 @@ class B_onesixty_Combat_Medic : B_base_medic{
 	magazines[] 				= { AR_SIX_MAG, MEDIC_GR,NINEMM };
 	respawnMagazines[] 			= { AR_SIX_MAG, MEDIC_GR,NINEMM };
 	backpack = "redi_med_bag";
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Radio_Operator : REDI_base_soldier{
@@ -155,6 +333,26 @@ class B_onesixty_Radio_Operator : REDI_base_soldier{
 	respawnMagazines[] 			= { AR_SIX_MAG,STANDARD_GR,UGL_FSO,"Laserbatteries"};
 
 	backpack = "rto_radio";
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Pilot : REDI_base_soldier{
@@ -172,6 +370,26 @@ class B_onesixty_Pilot : REDI_base_soldier{
 	magazines[] 				= { PILOT_MAG, MEDIC_GR,NINEMM };
 	respawnMagazines[] 			= { PILOT_MAG, MEDIC_GR,NINEMM };
 	backpack = "REDI_aus_radio";
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };
 
 class B_onesixty_Engineer : REDI_base_soldier{
@@ -191,4 +409,24 @@ class B_onesixty_Engineer : REDI_base_soldier{
 	magazines[] 				= { AR_SIX_MAG,STANDARD_GR };
 	respawnMagazines[] 			= { AR_SIX_MAG,STANDARD_GR };
 	backpack = "REDI_eng_bag";
+	unifoptions[]=
+	{
+		"ADFU_G3_AMC",
+		"ADFU_G3_AMC_Rolled",
+		"ADFU_G3_AMC_Nopad",
+		"ADFU_G3_AMC_Nopad_Rolled"
+	};
+	headoptions[]=
+	{
+		"REDI_opscore_adf_cover",
+		"ADFU_H_Airframe_Cover_02_AMC",
+		"ADFU_H_OpsCore_02_AMC"
+	};
+	class EventHandlers: EventHandlers
+	{
+		class ADFU_AMC_ECavInf_G
+		{
+			init="if (local (_this select 0)) then { [(_this select 0)] call redi_fnc_GearSwap;};";
+		};
+	};
 };

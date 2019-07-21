@@ -24,10 +24,12 @@ class redi_med_bag: B_AssaultPack_rgr{
 		item_xx(ACE_surgicalKit,1);
 	};
 };
+// z\tfar\addons\backpacks
 class REDI_aus_radio: TFAR_anarc164{
 	scope = 2;
 	displayName = "AN/ARC 164 (Australian Radio)";
 	tf_encryptionCode ="tf_west_radio_code";
+    tf_dialog = "rt1523g_radio_dialog";
 };
 class rto_radio: REDI_aus_radio{
 	scope=1;

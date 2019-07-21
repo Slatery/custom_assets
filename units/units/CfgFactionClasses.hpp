@@ -2,8 +2,9 @@ class CfgFactionClasses{
 	// Base units 
 	// ===================================================================
 	class B_REDI_joint{
-			displayName = "[JOINT] REDi 1R";
+			displayName = "REDi 1R";
 			author = "Slatery & [REDi]Jazza";
+			icon = "../REDi_256.paa"; 
 			priority = 2;
 			side = 1; // Blufor
 	};

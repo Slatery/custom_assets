@@ -7,7 +7,6 @@ class CfgFunctions {
 			file="\units\functions";
 			class GearSwap {};
 			class AddMarksManScope {};
-			class join {};
 		};
 	};
 };

@@ -6,27 +6,9 @@ class asdg_FrontSideRail
 class asdg_UnderSlot;
 class CfgWeapons{
 	// Headgear 
-	class ADFU_H_Airframe_Cover_02
-	class ADFU_H_Airframe_Cover_03: ADFU_H_Airframe_Cover_02{
-		REDI_HEARING_PROTECTION_PELTOR
-		nameSound="";
-		type="";
-	};
-	class ADFU_H_Airframe_Cover_07:ADFU_H_Airframe_Cover_03{
-		REDI_HEARING_PROTECTION_PELTOR
-		nameSound="";
-		type="";
-	};
+	class ADFU_H_Airframe_Cover_07;
 	
-	class ADFU_H_OpsCore_02;
-	class ADFU_H_OpsCore_03:ADFU_H_OpsCore_02{
-		REDI_HEARING_PROTECTION_PELTOR
-	};
-	class ADFU_H_OpsCore_09:ADFU_H_OpsCore_02{
-		REDI_HEARING_PROTECTION_PELTOR
-		nameSound="";
-		type="";
-	};
+	class ADFU_H_OpsCore_09;
 
 
 	class ADFU_H_OpsCore_09_AMC: ADFU_H_OpsCore_09

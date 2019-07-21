@@ -7,8 +7,8 @@ private _unitClass = typeOf _unit;
 //magazines and items saveing
 _items = items _unit;
 
-// skip if in 3den or unit has custom loadout
-if (is3DEN || _unit getvariable ["saved3DENInventory",false]) exitwith {};
+// skip if unit has custom loadout
+if ( _unit getvariable ["saved3DENInventory",false]) exitwith {};
 //uniform Randomization
 private _unif = getArray (configfile >> "CfgVehicles" >> _unitClass >> "unifoptions");
 if (count _unif == 0) then {}

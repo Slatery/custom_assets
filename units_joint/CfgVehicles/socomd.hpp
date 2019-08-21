@@ -102,8 +102,8 @@ class B_SOCOMD_marksman : REDI_base_soldier{
 	side = 1;
 	faction = "B_SOCOMD_joint";
 
-	Items[] 					= {FIRSTAID_KIT,REQUIRED_KIT};
-	RespawnItems[] 				= {FIRSTAID_KIT,REQUIRED_KIT};
+	Items[] 					= {FIRSTAID_KIT,UNIFORM_KIT};
+	RespawnItems[] 				= {FIRSTAID_KIT,UNIFORM_KIT};
 	linkedItems[] 				= {LINKED_ITEMS,"ADFU_V_TBAS_Marksman_AMC","ADFU_H_Airframe_Cover_02_MC"};
 	respawnLinkedItems[]		= {LINKED_ITEMS,"ADFU_V_TBAS_Marksman_AMC","ADFU_H_Airframe_Cover_02_MC"};
 	weapons[] 					= { "SMA_417_acc", "hgun_Rook40_F",Throw, Put};
@@ -177,8 +177,8 @@ class B_SOCOMD_Engineer : REDI_base_soldier{
 	side = 1;
 	faction = "B_SOCOMD_joint";
 	 
-	Items[] 					= {"ACE_Clacker","ACE_DefusalKit",FIRSTAID_KIT,REQUIRED_KIT};
-	RespawnItems[] 				= {"ACE_Clacker","ACE_DefusalKit",FIRSTAID_KIT,REQUIRED_KIT};
+	Items[] 					= {"ACE_Clacker","ACE_DefusalKit",FIRSTAID_KIT,UNIFORM_KIT};
+	RespawnItems[] 				= {"ACE_Clacker","ACE_DefusalKit",FIRSTAID_KIT,UNIFORM_KIT};
 	linkedItems[] 				= {LINKED_ITEMS,"ADFU_V_TBAS_Assaulter_AMC","ADFU_H_Airframe_Cover_02_MC"};
 	respawnLinkedItems[]		= {LINKED_ITEMS,"ADFU_V_TBAS_Assaulter_AMC","ADFU_H_Airframe_Cover_02_MC"};
 	weapons[] 					= {"SMA_Steyr_acc", "ACE_VMM3",Throw, Put};

@@ -542,8 +542,8 @@ class CfgWeapons {
 		};
 		class manual: MGun
 		{
-			displayname = "M240";
-			displaynameShort = "M240";
+			displayname = "FN MAG";
+			displaynameShort = "FN MAG";
 			reloadTime = 0.1;
 			dispersion = 0.0035;
 			burst = 1;
@@ -1215,213 +1215,405 @@ class CfgVehicles
 			visionMode[] = {"Normal"};
 		};
 		class CargoTurret;
+		
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
 			{
-				class Components{};
+				class Components
+				{
+				};
 				class Turrets: Turrets
 				{
 					class CommanderOptics: CommanderOptics
 					{
-						class Components{};
-						memoryPointGunnerOutOptics = "commanderview";
-						memoryPointGunnerOptics = "commanderview";
-						minOutElev = -30;
-						maxOutElev = 60;
-						initOutElev = 0;
-						minOutTurn = -100;
-						maxOutTurn = 100;
-						initOutTurn = 0;
-						gunBeg = "usti hlavne";
-						gunEnd = "konec hlavne";
-						body = "MainTurret";
-						gun = "MainGun";
-						minElev = -40;
-						maxElev = 40;
-						initElev = 0;
-						minTurn = -100;
-						maxTurn = 100;
-						initTurn = 0;
-						primaryGunner = 0;
-						primaryObserver = 1;
+						class Components
+						{
+						};
+						memoryPointGunnerOutOptics="commanderview";
+						memoryPointGunnerOptics="commanderview";
+						body="";
+						gun="";
+						minOutElev=-30;
+						maxOutElev=60;
+						initOutElev=0;
+						minOutTurn=-100;
+						maxOutTurn=100;
+						initOutTurn=0;
+						gunBeg="usti hlavne";
+						gunEnd="konec hlavne";
+						minElev=-40;
+						maxElev=40;
+						initElev=0;
+						minTurn=-100;
+						maxTurn=100;
+						initTurn=0;
+						primaryGunner=0;
+						primaryObserver=1;
 						class ViewGunner
 						{
-							initAngleX = 0;
-							minAngleX = -40;
-							maxAngleX = 40;
-							initAngleY = 0;
-							minAngleY = -150;
-							maxAngleY = 150;
-							initFov = "0.75";
-							minFov = "0.75";
-							maxFov = "0.75";
-							visionMode[] = {"Normal","NVG"};
+							initAngleX=0;
+							minAngleX=-40;
+							maxAngleX=40;
+							initAngleY=0;
+							minAngleY=-150;
+							maxAngleY=150;
+							initFov="0.75";
+							minFov="0.75";
+							maxFov="0.75";
+							visionMode[]=
+							{
+								"Normal"
+							};
 						};
 						class ViewOptics
 						{
-							initAngleX = 0;
-							minAngleX = -30;
-							maxAngleX = 30;
-							initAngleY = 0;
-							minAngleY = -100;
-							maxAngleY = 100;
-							initFov = "0.75";
-							minFov = "0.75";
-							maxFov = "0.75";
-							visionMode[] = {"Normal","NVG"};
+							initAngleX=0;
+							minAngleX=-30;
+							maxAngleX=30;
+							initAngleY=0;
+							minAngleY=-100;
+							maxAngleY=100;
+							initFov="0.75";
+							minFov="0.75";
+							maxFov="0.75";
+							visionMode[]=
+							{
+								"Normal",
+								"NVG"
+							};
 						};
-						showCrewAim = 1;
-						startEngine = 0;
-						LODTurnedIn = 1000;
-						LODTurnedOut = 1;
-						hideWeaponsCommander = 1;
-						gunnerCompartments = "Compartment1";
-						weapons[] = {"VTN_M257SGL"};
-						magazines[] = {"VTN_M82","VTN_M82"};
-						soundServo[] = {"A3\sounds_f\dummysound",0.01,1,30};
-						soundServoVertical[] = {"A3\sounds_f\dummysound",0.01,1,30};
-						soundElevation[] = {"A3\sounds_f\dummysound",0.01,1,30};
-						gunnerInAction = "LAV25_Commander";
-						gunnerAction = "Commander_MBT_01_cannon_F_out";
-						personTurretAction = "vehicle_turnout_2";
-						gunnerGetInAction = "GetInHigh";
-						gunnerGetOutAction = "GetOutHigh";
-						gunnerOpticsModel = "";
-						gunnerOutOpticsModel = "";
-						gunnerOpticsEffect[] = {};
-						hideWeaponsgunner = 1;
+						showCrewAim=1;
+						startEngine=0;
+						LODTurnedIn=1000;
+						LODTurnedOut=1;
+						hideWeaponsCommander=1;
+						gunnerCompartments="Compartment1";
+						weapons[]=
+						{
+							"VTN_M257SGL"
+						};
+						magazines[]=
+						{
+							"VTN_M82",
+							"VTN_M82"
+						};
+						soundServo[]=
+						{
+							"A3\sounds_f\dummysound",
+							0.0099999998,
+							1,
+							30
+						};
+						soundServoVertical[]=
+						{
+							"A3\sounds_f\dummysound",
+							0.0099999998,
+							1,
+							30
+						};
+						soundElevation[]=
+						{
+							"A3\sounds_f\dummysound",
+							0.0099999998,
+							1,
+							30
+						};
+						gunnerInAction="LAV25_Commander";
+						gunnerAction="Commander_MBT_01_cannon_F_out";
+						personTurretAction="vehicle_turnout_2";
+						gunnerGetInAction="GetInHigh";
+						gunnerGetOutAction="GetOutHigh";
+						gunnerOpticsModel="";
+						gunnerOutOpticsModel="";
+						gunnerOpticsEffect[]={};
+						hideWeaponsgunner=1;
 						class OpticsIn
 						{
 							class m36th_day_7x
 							{
-								initAngleX = 0;
-								minAngleX = -30;
-								maxAngleX = 30;
-								initAngleY = 0;
-								minAngleY = -100;
-								maxAngleY = 100;
-								initFov = "0.46 / 7";
-								minFov = "0.46 / 7";
-								maxFov = "0.46 / 7";
-								visionMode[] = {"Normal","NVG"};
-								gunnerOpticsModel = "\vtn_armorw_lav25_opt\m36th_day";
-								gunnerOpticsEffect[] = {};
+								initAngleX=0;
+								minAngleX=-30;
+								maxAngleX=30;
+								initAngleY=0;
+								minAngleY=-100;
+								maxAngleY=100;
+								initFov="0.46 / 7";
+								minFov="0.46 / 7";
+								maxFov="0.46 / 7";
+								visionMode[]=
+								{
+									"Normal"
+								};
+								gunnerOpticsModel="\vtn_armorw_lav25_opt\m36th_day";
+								gunnerOpticsEffect[]={};
+							};
+							class ITSS_2_5X
+							{
+								initAngleX=0;
+								minAngleX=-30;
+								maxAngleX=30;
+								initAngleY=0;
+								minAngleY=-100;
+								maxAngleY=100;
+								initFov="0.46 / 2.5";
+								minFov="0.46 / 2.5";
+								maxFov="0.46 / 2.5";
+								thermalmode[]={0,1};
+								visionMode[]=
+								{
+									"TI"
+								};
+								gunnerOpticsModel="\vtn_armorw_lav25_opt\itss_wf";
+								gunnerOpticsEffect[]={};
+							};
+							class ITSS_10X
+							{
+								initAngleX=0;
+								minAngleX=-30;
+								maxAngleX=30;
+								initAngleY=0;
+								minAngleY=-100;
+								maxAngleY=100;
+								initFov="0.46 / 10";
+								minFov="0.46 / 10";
+								maxFov="0.46 / 10";
+								thermalmode[]={0,1};
+								visionMode[]=
+								{
+									"TI"
+								};
+								gunnerOpticsModel="\vtn_armorw_lav25_opt\itss_nf";
+								gunnerOpticsEffect[]={};
+							};
+							class ITSS_20X
+							{
+								initAngleX=0;
+								minAngleX=-30;
+								maxAngleX=30;
+								initAngleY=0;
+								minAngleY=-100;
+								maxAngleY=100;
+								initFov="0.46 / 20";
+								minFov="0.46 / 20";
+								maxFov="0.46 / 20";
+								thermalmode[]={0,1};
+								visionMode[]=
+								{
+									"TI"
+								};
+								gunnerOpticsModel="\vtn_armorw_lav25_opt\itss_nf";
+								gunnerOpticsEffect[]={};
 							};
 						};
-						turretInfoType = "RscWeaponZeroing";
-						isPersonTurret = 1;
-						gunnerHasFlares = 1;
-						viewGunnerInExternal = 1;
-						inGunnerMayFire = 1;
-						outGunnerMayFire = 0;
-						gunnerForceOptics = 0;
+						turretInfoType="RscWeaponZeroing";
+						isPersonTurret=1;
+						gunnerHasFlares=1;
+						viewGunnerInExternal=1;
+						inGunnerMayFire=1;
+						outGunnerMayFire=0;
+						gunnerForceOptics=0;
 					};
 				};
-				memoryPointGun = "Usti hlavne1";
-				turretInfoType = "RscWeaponZeroing";
-				gunBeg = "usti hlavne";
-				gunEnd = "konec hlavne";
-				body = "MainTurret";
-				gun = "MainGun";
-				hideWeaponsgunner = 1;
-				isPersonTurret = 0;
-				animationSourceBody = "MainTurret";
-				animationSourceGun = "MainGun";
-				weapons[] = {"VTN_M242","VTN_M240C"};
-				magazines[] = {"VTN_M242_150_APDST","VTN_M242_150_APDST","VTN_M242_60_HEIT","VTN_M242_60_HEIT","VTN_M240_440_AP","VTN_M240_440_AP","VTN_M240_440_AP","VTN_M240_440_AP"};
-				soundServo[] = {"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",1,1,30};
-				soundServoVertical[] = {"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",1,1,30};
-				soundElevation[] = {"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",1,1,30};
-				minElev = -5;
-				initElev = 0;
-				maxElev = 30;
-				minOutElev = -30;
-				maxOutElev = 60;
-				minOutTurn = -110;
-				maxOutTurn = 110;
-				initOutTurn = 0;
-				gunnerCompartments = "Compartment1";
-				LODTurnedIn = 1000;
-				LODTurnedOut = 1;
-				gunnerAction = "LAV25_Gunner_out";
-				personTurretAction = "vehicle_turnout_2";
-				gunnerInAction = "LAV25_Gunner";
-				gunnerGetInAction = "GetInHigh";
-				gunnerGetOutAction = "GetOutHigh";
-				animationSourceStickX = "turret_control_x";
-				animationSourceStickY = "turret_control_y";
-				gunnerRightHandAnimName = "turret_control";
-				viewGunnerInExternal = 1;
-				gunnerForceOptics = 0;
-				inGunnerMayFire = 1;
-				outGunnerMayFire = 0;
-				maxHorizontalRotSpeed = 0.6;
-				maxVerticalRotSpeed = 0.13;
-				startEngine = 0;
-				primaryGunner = 1;
-				primaryObserver = 0;
+				memoryPointGun="Usti hlavne1";
+				turretInfoType="RscWeaponZeroing";
+				gunBeg="usti hlavne";
+				gunEnd="konec hlavne";
+				body="MainTurret";
+				gun="MainGun";
+				hideWeaponsgunner=1;
+				isPersonTurret=0;
+				animationSourceBody="MainTurret";
+				animationSourceGun="MainGun";
+				weapons[]=
+				{
+					"VTN_M242",
+					"VTN_M240C"
+				};
+				magazines[]=
+				{
+					"VTN_M242_150_APDST",
+					"VTN_M242_150_APDST",
+					"VTN_M242_60_HEIT",
+					"VTN_M242_60_HEIT",
+					"VTN_M240_440_AP",
+					"VTN_M240_440_AP",
+					"VTN_M240_440_AP",
+					"VTN_M240_440_AP"
+				};
+				soundServo[]=
+				{
+					"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",
+					1,
+					1,
+					30
+				};
+				soundServoVertical[]=
+				{
+					"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",
+					1,
+					1,
+					30
+				};
+				soundElevation[]=
+				{
+					"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_comm",
+					1,
+					1,
+					30
+				};
+				minElev=-5;
+				initElev=0;
+				maxElev=30;
+				minOutElev=-30;
+				maxOutElev=60;
+				minOutTurn=-110;
+				maxOutTurn=110;
+				initOutTurn=0;
+				gunnerCompartments="Compartment1";
+				LODTurnedIn=1000;
+				LODTurnedOut=1;
+				gunnerAction="LAV25_Gunner_out";
+				personTurretAction="vehicle_turnout_2";
+				gunnerInAction="LAV25_Gunner";
+				gunnerGetInAction="GetInHigh";
+				gunnerGetOutAction="GetOutHigh";
+				animationSourceStickX="turret_control_x";
+				animationSourceStickY="turret_control_y";
+				gunnerRightHandAnimName="turret_control";
+				viewGunnerInExternal=1;
+				gunnerForceOptics=0;
+				inGunnerMayFire=1;
+				outGunnerMayFire=0;
+				maxHorizontalRotSpeed=0.60000002;
+				maxVerticalRotSpeed=0.13;
+				startEngine=0;
+				primaryGunner=1;
+				primaryObserver=0;
 				class ViewGunner
 				{
-					initAngleX = 0;
-					minAngleX = -40;
-					maxAngleX = 40;
-					initAngleY = 0;
-					minAngleY = -120;
-					maxAngleY = 120;
-					initFov = "0.75";
-					minFov = "0.75";
-					maxFov = "0.75";
-					visionMode[] = {"Normal","NVG"};
+					initAngleX=0;
+					minAngleX=-40;
+					maxAngleX=40;
+					initAngleY=0;
+					minAngleY=-120;
+					maxAngleY=120;
+					initFov="0.75";
+					minFov="0.75";
+					maxFov="0.75";
+					visionMode[]=
+					{
+						"Normal"
+					};
 				};
-				castGunnerShadow = 1;
-				stabilizedInAxes = "StabilizedInAxesBoth";
-				discreteDistance[] = {};
-				discreteDistanceInitIndex = 0;
-				gunnerOpticsModel = "";
+				castGunnerShadow=1;
+				stabilizedInAxes="StabilizedInAxesBoth";
+				discreteDistance[]={};
+				discreteDistanceInitIndex=0;
+				gunnerOpticsModel="";
 				class HitPoints: HitPoints
 				{
 					class HitTurret
 					{
-						armor = 0.5;
-						material = -1;
-						name = "vez";
-						visual = "vez";
-						passThrough = 0;
-						minimalHit = 0.15;
-						explosionShielding = 0.2;
-						radius = 0.25;
+						armor=0.5;
+						material=-1;
+						name="vez";
+						visual="vez";
+						passThrough=0;
+						minimalHit=0.15000001;
+						explosionShielding=0.2;
+						radius=0.25;
 					};
 					class HitGun
 					{
-						armor = 0.25;
-						material = -1;
-						name = "zbran";
-						visual = "zbran";
-						passThrough = 0;
-						minimalHit = 0.15;
-						explosionShielding = 0.4;
-						radius = 0.25;
+						armor=0.25;
+						material=-1;
+						name="zbran";
+						visual="zbran";
+						passThrough=0;
+						minimalHit=0.15000001;
+						explosionShielding=0.40000001;
+						radius=0.25;
 					};
 				};
-				memoryPointGunnerOptics = "gunnerview";
-				selectionFireAnim = "zasleh";
+				memoryPointGunnerOptics="gunnerview";
+				selectionFireAnim="zasleh";
 				class OpticsIn
 				{
 					class m36th_day_7x
 					{
-						initAngleX = 0;
-						minAngleX = -30;
-						maxAngleX = 30;
-						initAngleY = 0;
-						minAngleY = -100;
-						maxAngleY = 100;
-						initFov = "0.46 / 7";
-						minFov = "0.46 / 7";
-						maxFov = "0.46 / 7";
-						visionMode[] = {"Normal","NVG"};
-						gunnerOpticsModel = "\vtn_armorw_lav25_opt\m36th_day";
-						gunnerOpticsEffect[] = {};
+						initAngleX=0;
+						minAngleX=-30;
+						maxAngleX=30;
+						initAngleY=0;
+						minAngleY=-100;
+						maxAngleY=100;
+						initFov="0.46 / 7";
+						minFov="0.46 / 7";
+						maxFov="0.46 / 7";
+						visionMode[]=
+						{
+							"Normal"
+						};
+						gunnerOpticsModel="\vtn_armorw_lav25_opt\m36th_day";
+						gunnerOpticsEffect[]={};
+					};
+					class ITSS_2_5X
+					{
+						initAngleX=0;
+						minAngleX=-30;
+						maxAngleX=30;
+						initAngleY=0;
+						minAngleY=-100;
+						maxAngleY=100;
+						initFov="0.46 / 2.5";
+						minFov="0.46 / 2.5";
+						maxFov="0.46 / 2.5";
+						thermalmode[]={0,1};
+						visionMode[]=
+						{
+							"TI"
+						};
+						gunnerOpticsModel="\vtn_armorw_lav25_opt\itss_wf";
+						gunnerOpticsEffect[]={};
+					};
+					class ITSS_10X
+					{
+						initAngleX=0;
+						minAngleX=-30;
+						maxAngleX=30;
+						initAngleY=0;
+						minAngleY=-100;
+						maxAngleY=100;
+						initFov="0.46 / 10";
+						minFov="0.46 / 10";
+						maxFov="0.46 / 10";
+						thermalmode[]={0,1};
+						visionMode[]=
+						{
+							"TI"
+						};
+						gunnerOpticsModel="\vtn_armorw_lav25_opt\itss_nf";
+						gunnerOpticsEffect[]={};
+					};
+					class ITSS_20X
+					{
+						initAngleX=0;
+						minAngleX=-30;
+						maxAngleX=30;
+						initAngleY=0;
+						minAngleY=-100;
+						maxAngleY=100;
+						initFov="0.46 / 20";
+						minFov="0.46 / 20";
+						maxFov="0.46 / 20";
+						thermalmode[]={0,1};
+						visionMode[]=
+						{
+							"TI"
+						};
+						gunnerOpticsModel="\vtn_armorw_lav25_opt\itss_nf";
+						gunnerOpticsEffect[]={};
 					};
 				};
 			};
@@ -1699,262 +1891,262 @@ class CfgVehicles
 		{
 			class HitHull
 			{
-				armor = 1;
-				material = -1;
-				armorComponent = "hit_hull";
-				name = "hit_hull_point";
-				visual = "zbytek";
-				passThrough = 0.5;
-				minimalHit = 0.15;
-				explosionShielding = 0.2;
-				radius = 0.3;
+				armor=1;
+				material=-1;
+				armorComponent="hit_hull";
+				name="hit_hull_point";
+				visual="zbytek";
+				passThrough=0.5;
+				minimalHit=0.15000001;
+				explosionShielding=0.2;
+				radius=0.30000001;
 			};
 			class HitEngine
 			{
-				armor = 1;
-				material = -1;
-				armorComponent = "hit_engine";
-				name = "hit_engine_point";
-				visual = "-";
-				passThrough = 0.5;
-				minimalHit = 0.015;
-				explosionShielding = 0.2;
-				radius = 0.4;
+				armor=1;
+				material=-1;
+				armorComponent="hit_engine";
+				name="hit_engine_point";
+				visual="-";
+				passThrough=0.5;
+				minimalHit=0.015;
+				explosionShielding=0.2;
+				radius=0.40000001;
 			};
 			class HitFuel
 			{
-				armor = 1.5;
-				material = -1;
-				armorComponent = "hit_fuel";
-				name = "hit_fuel_point";
-				visual = "-";
-				passThrough = 0.5;
-				minimalHit = 0.015;
-				explosionShielding = 0.6;
-				radius = 0.3;
+				armor=1.5;
+				material=-1;
+				armorComponent="hit_fuel";
+				name="hit_fuel_point";
+				visual="-";
+				passThrough=0.5;
+				minimalHit=0.015;
+				explosionShielding=0.60000002;
+				radius=0.30000001;
 			};
 			class HitLFWheelDir
 			{
-				visual = "wheel_1_1_hide";
-				armor = 0.25;
-				minimalHit = 0;
-				material = -1;
-				name = "";
-				armorComponent = "wheel_1_1_hide";
-				passThrough = 0;
-				explosionShielding = 0;
-				radius = 0.2;
+				visual="wheel_1_1_hide";
+				armor=0.25;
+				minimalHit=0;
+				material=-1;
+				name="";
+				armorComponent="wheel_1_1_hide";
+				passThrough=0;
+				explosionShielding=0;
+				radius=0.2;
 			};
 			class HitLFWheel: HitLFWheelDir
 			{
-				armor = 0.25;
-				minimalHit = 0.05;
-				name = "wheel_1_1_steering";
-				armorComponent = "";
-				explosionShielding = 10;
-				depends = "HitLFWheelDir - 0.25";
+				armor=0.25;
+				minimalHit=0.050000001;
+				name="wheel_1_1_steering";
+				armorComponent="";
+				explosionShielding=10;
+				depends="HitLFWheelDir - 0.25";
 			};
 			class HitLF2WheelDir: HitLFWheelDir
 			{
-				visual = "wheel_1_2_hide";
-				armorComponent = "wheel_1_2_hide";
+				visual="wheel_1_2_hide";
+				armorComponent="wheel_1_2_hide";
 			};
 			class HitLF2Wheel: HitLFWheel
 			{
-				name = "wheel_1_2_steering";
-				depends = "HitLF2WheelDir - 0.25";
+				name="wheel_1_2_steering";
+				depends="HitLF2WheelDir - 0.25";
 			};
 			class HitLMWheelDir: HitLFWheelDir
 			{
-				visual = "wheel_1_3_hide";
-				armorComponent = "wheel_1_3_hide";
+				visual="wheel_1_3_hide";
+				armorComponent="wheel_1_3_hide";
 			};
 			class HitLMWheel: HitLFWheel
 			{
-				name = "wheel_1_3_steering";
-				depends = "HitLMWheelDir - 0.25";
+				name="wheel_1_3_steering";
+				depends="HitLMWheelDir - 0.25";
 			};
 			class HitLBWheelDir: HitLFWheelDir
 			{
-				visual = "wheel_1_4_hide";
-				armorComponent = "wheel_1_4_hide";
+				visual="wheel_1_4_hide";
+				armorComponent="wheel_1_4_hide";
 			};
 			class HitLBWheel: HitLFWheel
 			{
-				name = "wheel_1_4_steering";
-				depends = "HitLBWheelDir - 0.25";
+				name="wheel_1_4_steering";
+				depends="HitLBWheelDir - 0.25";
 			};
 			class HitRFWheelDir: HitLFWheelDir
 			{
-				visual = "wheel_2_1_hide";
-				armorComponent = "wheel_2_1_hide";
+				visual="wheel_2_1_hide";
+				armorComponent="wheel_2_1_hide";
 			};
 			class HitRFWheel: HitLFWheel
 			{
-				name = "wheel_2_1_steering";
-				depends = "HitRFWheelDir - 0.25";
+				name="wheel_2_1_steering";
+				depends="HitRFWheelDir - 0.25";
 			};
 			class HitRF2WheelDir: HitLFWheelDir
 			{
-				visual = "wheel_2_2_hide";
-				armorComponent = "wheel_2_2_hide";
+				visual="wheel_2_2_hide";
+				armorComponent="wheel_2_2_hide";
 			};
 			class HitRF2Wheel: HitLFWheel
 			{
-				name = "wheel_2_2_steering";
-				depends = "HitRF2WheelDir - 0.25";
+				name="wheel_2_2_steering";
+				depends="HitRF2WheelDir - 0.25";
 			};
 			class HitRMWheelDir: HitLFWheelDir
 			{
-				visual = "wheel_2_3_hide";
-				armorComponent = "wheel_2_3_hide";
+				visual="wheel_2_3_hide";
+				armorComponent="wheel_2_3_hide";
 			};
 			class HitRMWheel: HitLFWheel
 			{
-				name = "wheel_2_3_steering";
-				depends = "HitRMWheelDir - 0.25";
+				name="wheel_2_3_steering";
+				depends="HitRMWheelDir - 0.25";
 			};
 			class HitRBWheelDir: HitLFWheelDir
 			{
-				visual = "wheel_2_4_hide";
-				armorComponent = "wheel_2_4_hide";
+				visual="wheel_2_4_hide";
+				armorComponent="wheel_2_4_hide";
 			};
 			class HitRBWheel: HitLFWheel
 			{
-				name = "wheel_2_4_steering";
-				depends = "HitRBWheelDir - 0.25";
+				name="wheel_2_4_steering";
+				depends="HitRBWheelDir - 0.25";
 			};
 			class HitGlass1
 			{
-				visual = "glass1";
-				name = "glass1";
-				armorComponent = "glass1";
-				material = -1;
-				armor = 0.015;
-				minimalHit = 0.5;
-				explosionShielding = 0.1;
-				passThrough = 1;
-				radius = 0.001;
+				visual="glass1";
+				name="glass1";
+				armorComponent="glass1";
+				material=-1;
+				armor=0.015;
+				minimalHit=0.5;
+				explosionShielding=0.1;
+				passThrough=1;
+				radius=0.001;
 			};
 			class HitGlass2: HitGlass1
 			{
-				visual = "glass2";
-				name = "glass2";
-				armorComponent = "glass2";
+				visual="glass2";
+				name="glass2";
+				armorComponent="glass2";
 			};
 			class HitGlass3: HitGlass1
 			{
-				visual = "glass3";
-				name = "glass3";
-				armorComponent = "glass3";
+				visual="glass3";
+				name="glass3";
+				armorComponent="glass3";
 			};
 			class HitGlass4: HitGlass1
 			{
-				visual = "glass4";
-				name = "glass4";
-				armorComponent = "glass4";
+				visual="glass4";
+				name="glass4";
+				armorComponent="glass4";
 			};
 			class HitGlass5: HitGlass1
 			{
-				visual = "glass5";
-				name = "glass5";
-				armorComponent = "glass5";
+				visual="glass5";
+				name="glass5";
+				armorComponent="glass5";
 			};
 			class HitGlass6: HitGlass1
 			{
-				visual = "glass6";
-				name = "glass6";
-				armorComponent = "glass6";
+				visual="glass6";
+				name="glass6";
+				armorComponent="glass6";
 			};
 			class HitGlass7: HitGlass1
 			{
-				visual = "glass7";
-				name = "glass7";
-				armorComponent = "glass7";
+				visual="glass7";
+				name="glass7";
+				armorComponent="glass7";
 			};
 			class HitGlass8: HitGlass1
 			{
-				visual = "glass8";
-				name = "glass8";
-				armorComponent = "glass8";
+				visual="glass8";
+				name="glass8";
+				armorComponent="glass8";
 			};
 			class HitGlass9: HitGlass1
 			{
-				visual = "glass9";
-				name = "glass9";
-				armorComponent = "glass9";
+				visual="glass9";
+				name="glass9";
+				armorComponent="glass9";
 			};
 			class HitGlass10: HitGlass1
 			{
-				visual = "glass10";
-				name = "glass10";
-				armorComponent = "glass10";
+				visual="glass10";
+				name="glass10";
+				armorComponent="glass10";
 			};
 			class HitGlass11: HitGlass1
 			{
-				visual = "glass11";
-				name = "glass11";
-				armorComponent = "glass11";
+				visual="glass11";
+				name="glass11";
+				armorComponent="glass11";
 			};
 			class HitGlass12: HitGlass1
 			{
-				visual = "glass12";
-				name = "glass12";
-				armorComponent = "glass12";
+				visual="glass12";
+				name="glass12";
+				armorComponent="glass12";
 			};
 			class HitGlass13: HitGlass1
 			{
-				visual = "glass13";
-				name = "glass13";
-				armorComponent = "glass13";
+				visual="glass13";
+				name="glass13";
+				armorComponent="glass13";
 			};
 			class HitGlass14: HitGlass1
 			{
-				visual = "glass14";
-				name = "glass14";
-				armorComponent = "glass14";
+				visual="glass14";
+				name="glass14";
+				armorComponent="glass14";
 			};
 			class HitGlass15: HitGlass1
 			{
-				visual = "glass15";
-				name = "glass15";
-				armorComponent = "glass15";
+				visual="glass15";
+				name="glass15";
+				armorComponent="glass15";
 			};
 			class HitGlass16: HitGlass1
 			{
-				visual = "glass16";
-				name = "glass16";
-				armorComponent = "glass16";
+				visual="glass16";
+				name="glass16";
+				armorComponent="glass16";
 			};
 			class HitGlass17: HitGlass1
 			{
-				visual = "glass17";
-				name = "glass17";
-				armorComponent = "glass17";
+				visual="glass17";
+				name="glass17";
+				armorComponent="glass17";
 			};
 			class HitGlass18: HitGlass1
 			{
-				visual = "glass18";
-				name = "glass18";
-				armorComponent = "glass18";
+				visual="glass18";
+				name="glass18";
+				armorComponent="glass18";
 			};
 			class HitGlass19: HitGlass1
 			{
-				visual = "glass19";
-				name = "glass19";
-				armorComponent = "glass19";
+				visual="glass19";
+				name="glass19";
+				armorComponent="glass19";
 			};
 			class HitGlass20: HitGlass1
 			{
-				visual = "glass20";
-				name = "glass20";
-				armorComponent = "glass20";
+				visual="glass20";
+				name="glass20";
+				armorComponent="glass20";
 			};
 			class HitGlass21: HitGlass1
 			{
-				visual = "glass21";
-				name = "glass21";
-				armorComponent = "glass21";
+				visual="glass21";
+				name="glass21";
+				armorComponent="glass21";
 			};
 		};
 		class Damage
@@ -2184,6 +2376,20 @@ class CfgVehicles
 				animPeriod = 0.6;
 				initPhase = 0;
 			};
+			class door3		
+			{		
+				mass=1;		
+				source="door";		
+				animPeriod=0.60000002;		
+				initPhase=0;		
+			};		
+			class door4		
+			{		
+				mass=1;		
+				source="door";		
+				animPeriod=0.60000002;		
+				initPhase=0;
+			};
 		};
 		driverCompartments = "Compartment1";
 		cargoCompartments[] = {"Compartment1","Compartment1","Compartment1","Compartment1"};
@@ -2405,10 +2611,9 @@ class CfgVehicles
 	};
 	class VTN_LAV25A1_DES: VTN_LAV25A1_BASE
 	{
-		scope = 0;
+		scope = 2;
 		scopeCurator = 0;
 		_generalMacro = "VTN_LAV25A1_DES";
-		DLC = "VTN";
 		author = "$STR_DN_VTN";
 		displayname = "$STR_DN_VTN_LAV25A1";
 		descriptionShort = "$STR_DS_VTN_LAV25A1_DES";
@@ -2431,10 +2636,9 @@ class CfgVehicles
 	};
 	class VTN_LAV25A1_WDL: VTN_LAV25A1_BASE
 	{
-		scope = 0;
+		scope = 2;
 		scopeCurator = 0;
 		_generalMacro = "VTN_LAV25A1_WDL";
-		DLC = "VTN";
 		author = "$STR_DN_VTN";
 		displayname = "$STR_DN_VTN_LAV25A1";
 		descriptionShort = "$STR_DS_VTN_LAV25A1_DES";

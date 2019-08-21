@@ -1,0 +1,12 @@
+﻿LANGUAGE,												English,												Russian
+
+// VEHICLE CLASSES: ////////////////////////////////////////////////////////
+STR_BLACKHAWKS_YURA_PETROV,								Aircraft,												Авиация (Юра Петров)
+
+// Actions: ////////////////////////////////////////////////////////
+STR_BLACKHAWKS_OPEN_DOORS,									Open cargo doors,									Открыть десантные двери
+STR_BLACKHAWKS_CLOSE_DOORS,									Close cargo doors,									Закрыть десантные двери
+STR_BLACKHAWKS_FORM_LIGHTS_ON,								formation lights on,								Строевые огни вкл
+STR_BLACKHAWKS_FORM_LIGHTS_OFF,								formation lights off,								Строевые огни выкл
+
+

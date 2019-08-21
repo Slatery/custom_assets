@@ -28,11 +28,5 @@ class CfgFactionClasses{
 	};
 
 	//==================================================================
-	class B_REDI_usa_modern{
-		displayName = "REDi US Modern";
-		author = "Slatery";
-		icon = "../REDi_256.paa"; // Needs to be 16x16 in resolution and it needs to be in the form of a PAA.
-		priority = 2;
-		side = 1; // Blufor
-	};
+
 };

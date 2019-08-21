@@ -51,12 +51,6 @@ class CfgFunctions {
 
 		class ActionConditions {
 			file="\redi_functions\functions\actionConditions";
-			class ActionCondition_CanToggleDiving {};
-			class ActionCondition_CanSwitchVest {};
-			class ActionCondition_CanUseLoadoutWeapon {};
-			class ActionCondition_HasPrimary556	{};
-			class ActionCondition_CanSwapVest {};
-			class ActionCondition_CanSwapBackpacks {};
 			class ActionCondition_IsAdmin {};
 		};
 	};

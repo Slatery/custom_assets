@@ -2,7 +2,7 @@
 #define FIRSTAID_KIT ITEM05("ACE_fieldDressing"),ITEM05("ACE_elasticBandage"),\
 					ITEM05("ACE_packingBandage"),ITEM05("ACE_quikclot"),ITEM03("ACE_morphine"),\
 					ITEM01("ACE_epinephrine"),ITEM02("ACE_tourniquet")
-#define REQUIRED_KIT ITEM02("ACE_CableTie"), ITEM01("ACE_Flashlight_XL50"), ITEM01("ACE_EarPlugs")
+#define UNIFORM_KIT ITEM02("ACE_CableTie"), ITEM01("ACE_Flashlight_XL50"), ITEM01("ACE_EarPlugs")
 #define LINKED_ITEMS ITEM01("ItemMap"),ITEM01("ItemCompass"),ITEM01("ItemWatch"),ITEM01("ItemGPS"),ITEM01("TFAR_anprc152")
 
 // Ammo templates

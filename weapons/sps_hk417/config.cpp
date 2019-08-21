@@ -823,7 +823,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"x\SPS\Weapons\SPS_hk417\data\rtm\HK417_VFG2.rtm"
+			"data\rtm\HK417_VFG2.rtm"
 		};
 		hiddenSelections[]=
 		{
@@ -840,20 +840,20 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BarrelGroup_13_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\VerticalGrip_low_CO.paa"
+			"data\Black\BarrelGroup_13_low_CO.paa",
+			"data\Black\BoltGroup_low_CO.paa",
+			"data\Black\Addons_low_CO.paa",
+			"data\Black\Magazine_low_CO.paa",
+			"data\Black\RIS_low_CO.paa",
+			"data\Black\Receiver_low_CO.paa",
+			"data\Black\Stock_low_CO.paa",
+			"data\Black\VerticalGrip_low_CO.paa"
 		};
 		inertia=0.47999999;
 		initSpeed=-0.9425;
-		model="x\SPS\Weapons\SPS_hk417\HK417_13.p3d";
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_vfg_Black_ca.paa";
-		UIpicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_vfg_Black_ca.paa";
+		model="HK417_13.p3d";
+		picture="ui\HK417A2_13inch_vfg_Black_ca.paa";
+		UIpicture="ui\HK417A2_13inch_vfg_Black_ca.paa";
 		class ItemInfo
 		{
 			priority=1;
@@ -883,17 +883,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_13_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\VerticalGrip_low_CO.paa"
+			"data\RAL8000\BarrelGroup_13_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\RAL8000\RIS_low_CO.paa",
+			"data\RAL8000\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\VerticalGrip_low_CO.paa"
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_vfg_ral8000_ca.paa";
-		UiPicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_vfg_ral8000_ca.paa";
+		picture="ui\HK417A2_13inch_vfg_ral8000_ca.paa";
+		UiPicture="ui\HK417A2_13inch_vfg_ral8000_ca.paa";
 	};
 	class SPS_hk417_13_vfg_fde_f: SPS_hk417_13_vfg_black_f
 	{
@@ -914,17 +914,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_13_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\VerticalGrip_low_CO.paa"
+			"data\RAL8000\BarrelGroup_13_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\DarkEarth\RIS_low_CO.paa",
+			"data\DarkEarth\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\VerticalGrip_low_CO.paa"
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_vfg_fde_ca.paa";
-		UiPicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_vfg_fde_ca.paa";
+		picture="ui\HK417A2_13inch_vfg_fde_ca.paa";
+		UiPicture="ui\HK417A2_13inch_vfg_fde_ca.paa";
 	};
 	class SPS_hk417_13_afg_black_f: SPS_hk417_13_vfg_black_f
 	{
@@ -933,7 +933,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"x\SPS\Weapons\SPS_hk417\data\rtm\HK417_AFG2.rtm"
+			"data\rtm\HK417_AFG2.rtm"
 		};
 		hiddenSelections[]=
 		{
@@ -949,18 +949,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\Black\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BarrelGroup_13_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Stock_low_CO.paa",
+			"data\Black\AFG_low_CO.paa",
+			"data\Black\BarrelGroup_13_low_CO.paa",
+			"data\Black\BoltGroup_low_CO.paa",
+			"data\Black\Addons_low_CO.paa",
+			"data\Black\Magazine_low_CO.paa",
+			"data\Black\RIS_low_CO.paa",
+			"data\Black\Receiver_low_CO.paa",
+			"data\Black\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_afg_Black_ca.paa";
-		UIpicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_afg_Black_ca.paa";
+		picture="ui\HK417A2_13inch_afg_Black_ca.paa";
+		UIpicture="ui\HK417A2_13inch_afg_Black_ca.paa";
 	};
 	class SPS_hk417_13_afg_ral8000_f: SPS_hk417_13_afg_black_f
 	{
@@ -980,18 +980,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_13_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\AFG_low_CO.paa",
+			"data\RAL8000\BarrelGroup_13_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\RAL8000\RIS_low_CO.paa",
+			"data\RAL8000\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_afg_ral8000_ca.paa";
-		UiPicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_afg_ral8000_ca.paa";
+		picture="ui\HK417A2_13inch_afg_ral8000_ca.paa";
+		UiPicture="ui\HK417A2_13inch_afg_ral8000_ca.paa";
 	};
 	class SPS_hk417_13_afg_fde_f: SPS_hk417_13_afg_black_f
 	{
@@ -1011,18 +1011,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_13_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\AFG_low_CO.paa",
+			"data\RAL8000\BarrelGroup_13_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\DarkEarth\RIS_low_CO.paa",
+			"data\DarkEarth\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_afg_fde_ca.paa";
-		UiPicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_13inch_afg_fde_ca.paa";
+		picture="ui\HK417A2_13inch_afg_fde_ca.paa";
+		UiPicture="ui\HK417A2_13inch_afg_fde_ca.paa";
 	};
 	class SPS_hk417_16_vfg_black_f: SPS_hk417_base_f
 	{
@@ -1059,7 +1059,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"x\SPS\Weapons\SPS_hk417\data\rtm\HK417_VFG2.rtm"
+			"data\rtm\HK417_VFG2.rtm"
 		};
 		hiddenSelections[]=
 		{
@@ -1076,21 +1076,21 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BarrelGroup_16_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\VerticalGrip_low_CO.paa"
+			"data\Black\BarrelGroup_16_low_CO.paa",
+			"data\Black\BoltGroup_low_CO.paa",
+			"data\Black\Addons_low_CO.paa",
+			"data\Black\Magazine_low_CO.paa",
+			"data\Black\RIS_low_CO.paa",
+			"data\Black\Receiver_low_CO.paa",
+			"data\Black\Stock_low_CO.paa",
+			"data\Black\VerticalGrip_low_CO.paa"
 		};
 		inertia=0.52200001;
 		initSpeed=-0.9975;
 		maxZeroing=1400;
-		model="x\SPS\Weapons\SPS_hk417\HK417_16.p3d";
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_vfg_Black_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_vfg_Black_ca.paa";
+		model="HK417_16.p3d";
+		picture="ui\HK417A2_16inch_vfg_Black_ca.paa";
+		Uipicture="ui\HK417A2_16inch_vfg_Black_ca.paa";
 		class ItemInfo
 		{
 			priority=1;
@@ -1119,17 +1119,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_16_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\VerticalGrip_low_CO.paa"
+			"data\RAL8000\BarrelGroup_16_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\RAL8000\RIS_low_CO.paa",
+			"data\RAL8000\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\VerticalGrip_low_CO.paa"
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_vfg_RAL8000_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_vfg_RAL8000_ca.paa";
+		picture="ui\HK417A2_16inch_vfg_RAL8000_ca.paa";
+		Uipicture="ui\HK417A2_16inch_vfg_RAL8000_ca.paa";
 	};
 	class SPS_hk417_16_vfg_fde_f: SPS_hk417_16_vfg_black_f
 	{
@@ -1150,17 +1150,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_16_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\VerticalGrip_low_CO.paa"
+			"data\RAL8000\BarrelGroup_16_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\DarkEarth\RIS_low_CO.paa",
+			"data\DarkEarth\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\VerticalGrip_low_CO.paa"
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_vfg_FDE_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_vfg_FDE_ca.paa";
+		picture="ui\HK417A2_16inch_vfg_FDE_ca.paa";
+		Uipicture="ui\HK417A2_16inch_vfg_FDE_ca.paa";
 	};
 	class SPS_hk417_16_afg_black_f: SPS_hk417_16_vfg_black_f
 	{
@@ -1169,7 +1169,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"x\SPS\Weapons\SPS_hk417\data\rtm\HK417_AFG2.rtm"
+			"data\rtm\HK417_AFG2.rtm"
 		};
 		hiddenSelections[]=
 		{
@@ -1185,18 +1185,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\Black\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BarrelGroup_16_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Stock_low_CO.paa",
+			"data\Black\AFG_low_CO.paa",
+			"data\Black\BarrelGroup_16_low_CO.paa",
+			"data\Black\BoltGroup_low_CO.paa",
+			"data\Black\Addons_low_CO.paa",
+			"data\Black\Magazine_low_CO.paa",
+			"data\Black\RIS_low_CO.paa",
+			"data\Black\Receiver_low_CO.paa",
+			"data\Black\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_afg_Black_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_afg_Black_ca.paa";
+		picture="ui\HK417A2_16inch_afg_Black_ca.paa";
+		Uipicture="ui\HK417A2_16inch_afg_Black_ca.paa";
 	};
 	class SPS_hk417_16_afg_ral8000_f: SPS_hk417_16_afg_black_f
 	{
@@ -1216,18 +1216,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_16_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\AFG_low_CO.paa",
+			"data\RAL8000\BarrelGroup_16_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\RAL8000\RIS_low_CO.paa",
+			"data\RAL8000\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_afg_RAL8000_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_afg_RAL8000_ca.paa";
+		picture="ui\HK417A2_16inch_afg_RAL8000_ca.paa";
+		Uipicture="ui\HK417A2_16inch_afg_RAL8000_ca.paa";
 	};
 	class SPS_hk417_16_afg_fde_f: SPS_hk417_16_afg_black_f
 	{
@@ -1247,18 +1247,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup_16_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\RIS_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\AFG_low_CO.paa",
+			"data\RAL8000\BarrelGroup_16_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\DarkEarth\RIS_low_CO.paa",
+			"data\DarkEarth\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_afg_FDE_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_16inch_afg_FDE_ca.paa";
+		picture="ui\HK417A2_16inch_afg_FDE_ca.paa";
+		Uipicture="ui\HK417A2_16inch_afg_FDE_ca.paa";
 	};
 	class SPS_hk417_20_vfg_black_f: SPS_hk417_base_f
 	{
@@ -1295,7 +1295,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"x\SPS\Weapons\SPS_hk417\data\rtm\HK417_VFG2.rtm"
+			"data\rtm\HK417_VFG2.rtm"
 		};
 		hiddenSelections[]=
 		{
@@ -1312,21 +1312,21 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BarrelGroup20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\RIS20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\VerticalGrip_low_CO.paa"
+			"data\Black\BarrelGroup20_low_CO.paa",
+			"data\Black\BoltGroup_low_CO.paa",
+			"data\Black\Addons_low_CO.paa",
+			"data\Black\Magazine_low_CO.paa",
+			"data\Black\RIS20_low_CO.paa",
+			"data\Black\Receiver_low_CO.paa",
+			"data\Black\Stock_low_CO.paa",
+			"data\Black\VerticalGrip_low_CO.paa"
 		};
 		inertia=0.59100002;
 		initSpeed=-1.0337501;
 		maxZeroing=1600;
-		model="x\SPS\Weapons\SPS_hk417\HK417_20.p3d";
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_vfg_Black_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_vfg_Black_ca.paa";
+		model="HK417_20.p3d";
+		picture="ui\HK417A2_20inch_vfg_Black_ca.paa";
+		Uipicture="ui\HK417A2_20inch_vfg_Black_ca.paa";
 		class ItemInfo
 		{
 			priority=1;
@@ -1355,17 +1355,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\RIS20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\VerticalGrip_low_CO.paa"
+			"data\RAL8000\BarrelGroup20_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\RAL8000\RIS20_low_CO.paa",
+			"data\RAL8000\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\VerticalGrip_low_CO.paa"
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_vfg_RAL8000_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_vfg_RAL8000_ca.paa";
+		picture="ui\HK417A2_20inch_vfg_RAL8000_ca.paa";
+		Uipicture="ui\HK417A2_20inch_vfg_RAL8000_ca.paa";
 	};
 	class SPS_hk417_20_vfg_fde_f: SPS_hk417_20_vfg_black_f
 	{
@@ -1386,17 +1386,17 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\RIS20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\VerticalGrip_low_CO.paa"
+			"data\RAL8000\BarrelGroup20_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\DarkEarth\RIS20_low_CO.paa",
+			"data\DarkEarth\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\VerticalGrip_low_CO.paa"
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_vfg_FDE_ca.paa";
-		UiPicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_vfg_FDE_ca.paa";
+		picture="ui\HK417A2_20inch_vfg_FDE_ca.paa";
+		UiPicture="ui\HK417A2_20inch_vfg_FDE_ca.paa";
 	};
 	class SPS_hk417_20_afg_black_f: SPS_hk417_20_vfg_black_f
 	{
@@ -1405,7 +1405,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"x\SPS\Weapons\SPS_hk417\data\rtm\HK417_AFG2.rtm"
+			"data\rtm\HK417_AFG2.rtm"
 		};
 		hiddenSelections[]=
 		{
@@ -1421,18 +1421,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\Black\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BarrelGroup20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\RIS20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\Black\Stock_low_CO.paa",
+			"data\Black\AFG_low_CO.paa",
+			"data\Black\BarrelGroup20_low_CO.paa",
+			"data\Black\BoltGroup_low_CO.paa",
+			"data\Black\Addons_low_CO.paa",
+			"data\Black\Magazine_low_CO.paa",
+			"data\Black\RIS20_low_CO.paa",
+			"data\Black\Receiver_low_CO.paa",
+			"data\Black\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_afg_Black_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_afg_Black_ca.paa";
+		picture="ui\HK417A2_20inch_afg_Black_ca.paa";
+		Uipicture="ui\HK417A2_20inch_afg_Black_ca.paa";
 	};
 	class SPS_hk417_20_afg_ral8000_f: SPS_hk417_20_afg_black_f
 	{
@@ -1452,18 +1452,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\RIS20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\AFG_low_CO.paa",
+			"data\RAL8000\BarrelGroup20_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\RAL8000\RIS20_low_CO.paa",
+			"data\RAL8000\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_afg_RAL8000_ca.paa";
-		Uipicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_afg_RAL8000_ca.paa";
+		picture="ui\HK417A2_20inch_afg_RAL8000_ca.paa";
+		Uipicture="ui\HK417A2_20inch_afg_RAL8000_ca.paa";
 	};
 	class SPS_hk417_20_afg_fde_f: SPS_hk417_20_afg_black_f
 	{
@@ -1483,18 +1483,18 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\AFG_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BarrelGroup20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\BoltGroup_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Addons_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Magazine_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\RIS20_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\DarkEarth\Receiver_low_CO.paa",
-			"x\SPS\Weapons\SPS_hk417\data\RAL8000\Stock_low_CO.paa",
+			"data\RAL8000\AFG_low_CO.paa",
+			"data\RAL8000\BarrelGroup20_low_CO.paa",
+			"data\RAL8000\BoltGroup_low_CO.paa",
+			"data\RAL8000\Addons_low_CO.paa",
+			"data\RAL8000\Magazine_low_CO.paa",
+			"data\DarkEarth\RIS20_low_CO.paa",
+			"data\DarkEarth\Receiver_low_CO.paa",
+			"data\RAL8000\Stock_low_CO.paa",
 			""
 		};
-		picture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_afg_FDE_ca.paa";
-		UiPicture="x\SPS\Weapons\SPS_hk417\ui\HK417A2_20inch_afg_FDE_ca.paa";
+		picture="ui\HK417A2_20inch_afg_FDE_ca.paa";
+		UiPicture="ui\HK417A2_20inch_afg_FDE_ca.paa";
 	};
 	class SPS_hk417_13_glm_black_f: SPS_hk417_base_f
 	{
@@ -1656,7 +1656,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"x\SPS\Weapons\SPS_hk417\data\rtm\HK417_GLM.rtm"
+			"data\rtm\HK417_GLM.rtm"
 		};
 		hiddenSelections[]=
 		{

@@ -1,7 +1,7 @@
 class CfgPatches{
     class redi_lav_overwrite{
         units[]={
-            "SOCOMD_APC_C"
+            "LAV25_APC_C"
 		};
 		weapons[]={		};
 		requiredVersion=1;
@@ -48,7 +48,7 @@ class CfgVehicles{
         };
     };
 
-    class SOCOMD_APC_C : VTN_LAV25A1_WDL {
+    class LAV25_APC_C : VTN_LAV25A1_WDL {
         scope = 2;
         scopeCurator = 2;
         side = 1;
@@ -62,17 +62,6 @@ class CfgVehicles{
         crew = "B_REDI_Crew";
         typicalCargo[] = {"B_REDI_Crew"};
 
-        class AcreIntercoms {
-            class Intercom_1 {
-                displayName = "Crew Intercom";
-                shortName = "Crew";
-                allowedPositions[] = {"crew"};
-                limitedPositions[] = {};
-                numLimitedPositions = 0;
-                masterPositions[] = {"commander"};
-                connectedByDefault = 1;
-            };
-        };
 
         class TextureSources : TextureSources {
             class SOCOMD {
@@ -139,10 +128,10 @@ class CfgVehicles{
         };
         class HitPoints : HitPoints {
             class HitHull : HitHull {
-                armor = 2.6;
+                armor = 1.5;
                 minimalHit = 0.060;
                 explosionShielding = 0.0015;
-                passThrough = 0.1;
+                passThrough = 0.3;
             };
             //class HitEngine;
             class HitFuel : HitFuel {

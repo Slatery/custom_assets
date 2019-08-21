@@ -1,0 +1,86 @@
+class StageTI
+{
+	texture="a3\data_f\default_ti_ca.paa";
+};
+ambient[]={2.6896595e-008,4.5523048e-008,3.4347178e-008,1.5};
+diffuse[]={0,0,0,1};
+forcedDiffuse[]={2.875924e-008,0,1.0145455e-007,1};
+emmisive[]={0,0,0,0};
+specular[]={0.80000001,0.81999999,0.82999998,1};
+specularPower=780;
+renderFlags[]=
+{
+	"NoZWrite"
+};
+PixelShaderID="Super";
+VertexShaderID="Super";
+class Stage1
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,1,1,NOHQ)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,0.5,DT)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={18,0,0};
+		up[]={0,18,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage3
+{
+	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+};
+class Stage4
+{
+	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,1};
+	};
+};
+class Stage5
+{
+	texture="#(argb,8,8,3)color(0,0.025,1,1,SMDI)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,1};
+		pos[]={0,0,1};
+	};
+};
+class Stage6
+{
+	texture="#(ai,64,64,1)fresnel(0.8,2.3)";
+	uvSource="none";
+};
+class Stage7
+{
+	texture="a3\data_f\env_interier_car_ca.paa";
+	uvSource="none";
+};

@@ -52,6 +52,21 @@ class CfgPatches{
 		};
 	};
 };
+class CfgEditorSubcategories
+{
+	class men_amcu	{
+		displayName = "Men (AMCU)"; 
+	};
+	class men_mc	{
+		displayName = "Men (MC)"; 
+	};
+	class men_AMCT	{
+		displayName = "Men (Tropic)"; 
+	};
+	class men_AMCS	{
+		displayName = "Men (Snow)"; 
+	};
+};
 #include "\units\CfgGroups.hpp"
 #include "\units\CfgWeapons.hpp"
 #include "\units\CfgVehicles.hpp"

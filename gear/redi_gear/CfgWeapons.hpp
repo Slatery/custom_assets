@@ -8,7 +8,7 @@ class CfgWeapons{
 
 	// Missing ADFU Gear
 	// ==================================================================
-	class ADFU_H_Airframe_Cover_02
+	class ADFU_H_Airframe_Cover_02;
 	class ADFU_H_Airframe_Cover_03: ADFU_H_Airframe_Cover_02{
 		REDI_HEARING_PROTECTION_PELTOR
 		nameSound="";
@@ -30,8 +30,8 @@ class CfgWeapons{
 		type="";
 	};
 
-
-	class ADFU_H_OpsCore_09_AMC: ADFU_H_OpsCore_09_MC
+	class ADFU_H_OpsCore_09_MC;
+	class ADFU_H_OpsCore_09_AMC: ADFU_H_OpsCore_09
 	{
 		author="Adacas + ADFU";
 		dlc="ADFU";
@@ -59,8 +59,8 @@ class CfgWeapons{
 			""
 		};
 	};
-
-	class ADFU_H_Airframe_Cover_07_AMC: ADFU_H_Airframe_Cover_07_MC
+	class ADFU_H_Airframe_Cover_07_MC;
+	class ADFU_H_Airframe_Cover_07_AMC: ADFU_H_Airframe_Cover_07
 	{
 		author="Adacas + ADFU";
 		dlc="ADFU";
@@ -83,7 +83,7 @@ class CfgWeapons{
 			"ADFU_Units_MC\data\h_fast_khk_co.paa"
 		};
 	};
-	class ADFU_H_OpsCore_09_AMCT: ADFU_H_OpsCore_09_MC
+	class ADFU_H_OpsCore_09_AMCT: ADFU_H_OpsCore_09
 	{
 		author="Adacas + ADFU";
 		dlc="ADFU";
@@ -112,7 +112,7 @@ class CfgWeapons{
 		};
 	};
 
-	class ADFU_H_Airframe_Cover_07_AMCT: ADFU_H_Airframe_Cover_07_MC
+	class ADFU_H_Airframe_Cover_07_AMCT: ADFU_H_Airframe_Cover_07
 	{
 		author="Adacas + ADFU";
 		dlc="ADFU";
@@ -123,7 +123,7 @@ class CfgWeapons{
 		picture="\ADFU_Units_MC\ui\icons\af\af_04_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
-			"\ADFU_Units\data\h_gear_01_khk_co.paa",
+			"\ADFU_Units_amct\data\h_gear_01_khk_co.paa",
 			"",
 			"",
 			"ADFU_Units_AMCT\data\h_airframe_cover_AMCT_co.paa",
@@ -131,8 +131,60 @@ class CfgWeapons{
 			"ADFU_Units\data\h_gear_01_khk_co.paa",
 			"ADFU_Units\data\h_gear_01_khk_co.paa",
 			"",
-			"ADFU_Units_MC\data\h_airframe_brn_co.paa",
-			"ADFU_Units_MC\data\h_fast_khk_co.paa"
+			"ADFU_Units_AMCT\data\h_airframe_grn_co.paa",
+			"ADFU_Units_AMCT\data\h_fast_rgr_co.paa"
+		};
+	};
+	class ADFU_H_OpsCore_09_AMCS: ADFU_H_OpsCore_09
+	{
+		author="Adacas + ADFU";
+		dlc="ADFU";
+		scope=2;
+		scopeArsenal=2;
+		allowedslots[]={901};
+		displayName="OpsCore (AMCS) [Night Ops/Headset]";
+		picture="\ADFU_Units_MC\ui\icons\oc\oc_04_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\ADFU_Units_AMCS\data\h_opscore_AMCS_co.paa",
+			"",
+			"",
+			"",
+			"\ADFU_Units\data\h_gear_01_cb_co.paa",
+			"",
+			"",
+			"",
+			"\ADFU_Units\data\h_gear_01_cb_co.paa",
+			"",
+			"",
+			"\ADFU_Units\data\h_gear_01_cb_co.paa",
+			"",
+			"",
+			""
+		};
+	};
+hiddenSelectionsTextures[] = {"","","","\ADFU_Units_AMCS\data\h_airframe_cover_amcs_co.paa","","ADFU_Units_AMCS\data\h_gear_01_wht_co.paa","ADFU_Units_AMCS\data\h_gear_01_wht_co.paa","","\ADFU_Units_AMCS\data\h_airframe_wht_co.paa","\ADFU_Units_AMCS\data\h_fast_wht_co.paa"};
+	class ADFU_H_Airframe_Cover_07_AMCS: ADFU_H_Airframe_Cover_07
+	{
+		author="Adacas + ADFU";
+		dlc="ADFU";
+		scope=2;
+		scopeArsenal=2;
+		displayName="Airframe (AMCS) [Night Ops/Headset]";
+		allowedslots[]={901};
+		picture="\ADFU_Units_MC\ui\icons\af\af_04_ca.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"\ADFU_Units_AMCS\data\h_gear_01_khk_co.paa",
+			"",
+			"",
+			"ADFU_Units_AMCS\data\h_airframe_cover_AMCS_co.paa",
+			"",
+			"ADFU_Units\data\h_gear_01_wht_co.paa",
+			"ADFU_Units\data\h_gear_01_wht_co.paa",
+			"",
+			"ADFU_Units_AMCS\data\h_airframe_wht_co.paa",
+			"ADFU_Units_AMCS\data\h_fast_wht_co.paa"
 		};
 	};
 	// Ace Compat

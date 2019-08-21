@@ -1,8 +1,8 @@
 // Gear definitions
-#define FIRSTAID_KIT ITEM05("ACE_fieldDressing"),ITEM05("ACE_elasticBandage"),\
-					ITEM05("ACE_packingBandage"),ITEM05("ACE_quikclot"),ITEM03("ACE_morphine"),\
-					ITEM01("ACE_epinephrine"),ITEM02("ACE_tourniquet")
-#define REQUIRED_KIT ITEM02("ACE_CableTie"), ITEM01("ACE_Flashlight_XL50"), ITEM01("ACE_EarPlugs")
+#define FIRSTAID_KIT ITEM06("ACE_fieldDressing"),ITEM06("ACE_elasticBandage"),\
+					 ITEM06("ACE_packingBandage"),ITEM06("ACE_quikclot"),ITEM05("ACE_morphine"),\
+					 ITEM02("ACE_epinephrine"),ITEM02("ACE_tourniquet"),ITEM02("adv_aceSplint_splint")
+#define UNIFORM_KIT ITEM03("ACE_CableTie"), ITEM01("ACE_Flashlight_XL50"), ITEM01("ACE_EarPlugs"), ITEM01("ACE_DAGR"), ITEM03("MS_Strobe_Mag_1")
 #define LINKED_ITEMS ITEM01("ItemMap"),ITEM01("ItemCompass"),ITEM01("ItemWatch"),ITEM01("ItemGPS"),ITEM01("TFAR_anprc152")
 
 // Ammo templates
@@ -17,10 +17,10 @@
 #define AR_SIX_MAG ITEM07("ACE_30Rnd_556x45_Stanag_Mk262_mag")													// 6 mags
 #define AR_EIGHT_MAG ITEM09("ACE_30Rnd_556x45_Stanag_Mk262_mag")												// 8 mags
 #define MARKSMAN_MAG ITEM07("ACE_20Rnd_762x51_M118LR_Mag")														// Desmark mags
-#define GUNNER_MAG ITEM01("rhsusf_200rnd_556x45_mixed_box"), ITEM04("rhsusf_100Rnd_556x45_mixed_soft_pouch")	// MG mags
+#define GUNNER_MAG ITEM03("rhsusf_200rnd_556x45_mixed_box") 													// MG mags
 #define PILOT_MAG ITEM05("30Rnd_9x21_Mag_SMG_02")																// SMG Mags
 // UGL Ammo
-#define UGL_STAND ITEM08("1Rnd_HE_Grenade_shell"), ITEM02("1Rnd_SmokeRed_Grenade_shell"),ITEM02("1Rnd_SmokeBlue_Grenade_shell")			// 8x HE, 2x Red smoke, 2x Blue smoke
+#define UGL_STAND ITEM07("1Rnd_HE_Grenade_shell"), ITEM02("1Rnd_SmokeRed_Grenade_shell"),ITEM02("1Rnd_SmokeBlue_Grenade_shell"),ITEM02("1Rnd_Smoke_Grenade_shell")			// 8x HE, 2x Red smoke, 2x Blue smoke
 #define UGL_FSO ITEM06("1Rnd_HE_Grenade_shell"), ITEM06("1Rnd_SmokeRed_Grenade_shell"),ITEM04("UGL_FlareRed_F"),ITEM02("B_IR_Grenade")	// 6x HE, 6x Red Smoke,4 Red Flare, 2 IR grenade
 //Pistol Ammo
 #define NINEMM ITEM03("16Rnd_9x21_Mag")
